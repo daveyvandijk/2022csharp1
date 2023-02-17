@@ -1,0 +1,47 @@
+string naar console
+
+private string productName;
+
+    public void GetItemData()
+    {
+        ShowReciept();
+    }
+
+    private void ReadItem()
+    {    
+        Console.WriteLine("Enter the product's name: "); 
+        productName = Console.ReadLine();
+    }
+
+    private void ShowReciept()
+    {
+        Console.WriteLine("**** Name of product:", productName);
+    }
+
+
+random nummer
+Random rnd = new Random();
+
+for (int j = 0; j < 4; j++)
+{
+    Console.WriteLine(rnd.Next());
+}
+
+
+inpute lezen 
+namespace TeleprompterConsole;
+
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hello World!");
+    }
+}
+
+
+loop maken 
+for (statement 1; statement 2; statement 3) 
+{
+  // code block to be executed
+}
